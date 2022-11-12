@@ -8,4 +8,4 @@ git pull  /// for taking remote update
 git branch -view all local branches
 git branch branchname
 git checkout branchname //by using this if providede branch is not available then its created or shift to it.
-git --push-upstream origin branchname
+git push --set-upstream branchname
