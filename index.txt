@@ -3,8 +3,9 @@ git clone https::/url
 git add * /git add .
 git commit -m "message" //providing message is mandatory
 git push
+git pull  /// for taking remote update
 
 git branch -view all local branches
 git branch branchname
 git checkout branchname //by using this if providede branch is not available then its created or shift to it.
-git --upstream origin branchname
+git --push-upstream origin branchname
